@@ -1,0 +1,12 @@
+--------------- Build Started: 05/28/2014 15:01:24 Project: PFinalWav, Configuration: DP8051 Keil 9.51 Debug ---------------
+The code generation step is up to date.
+c51.exe .\main.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\main.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\main.obj)
+LIBX51.exe TRANSFER '.\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.obj', '.\DP8051\DP8051_Keil_951\Debug\VDAC8.obj', '.\DP8051\DP8051_Keil_951\Debug\VDAC8_PM.obj', '.\DP8051\DP8051_Keil_951\Debug\Pin_Sonido.obj', '.\DP8051\DP8051_Keil_951\Debug\Pin_Play_Pause.obj', '.\DP8051\DP8051_Keil_951\Debug\Clock.obj', '.\DP8051\DP8051_Keil_951\Debug\isrWAV.obj', '.\DP8051\DP8051_Keil_951\Debug\LCD_Char.obj', '.\DP8051\DP8051_Keil_951\Debug\LCD_Char_PM.obj', '.\DP8051\DP8051_Keil_951\Debug\LCD_Char_LCDPort.obj', '.\DP8051\DP8051_Keil_951\Debug\CyBootAsmKeil.obj', '.\DP8051\DP8051_Keil_951\Debug\CyDmac.obj', '.\DP8051\DP8051_Keil_951\Debug\CyFlash.obj', '.\DP8051\DP8051_Keil_951\Debug\CyLib.obj', '.\DP8051\DP8051_Keil_951\Debug\cymem.obj', '.\DP8051\DP8051_Keil_951\Debug\cyPm.obj', '.\DP8051\DP8051_Keil_951\Debug\CySpc.obj', '.\DP8051\DP8051_Keil_951\Debug\cyutils.obj', '.\DP8051\DP8051_Keil_951\Debug\KeilStart.obj' TO '.\DP8051\DP8051_Keil_951\Debug\PFinalWav.lib'
+LX51.exe '.\DP8051\DP8051_Keil_951\Debug\main.obj', '.\DP8051\DP8051_Keil_951\Debug\PFinalWav.lib', 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DP8051\DP8051_Keil_951\Debug\CyComponentLibrary.lib'  TO '.\DP8051\DP8051_Keil_951\Debug\PFinalWav.omf' PR(.\DP8051\DP8051_Keil_951\Debug\PFinalWav.map) IX CODE DW(16) RU CL(XDATA(X:0x0000-X:0x1FFF)) CL(CODE(C:0x0000-C:0xFFFF)) CL(CONST(C:0x0000-C:0xFFFF))
+Program Size: data=14.0 xdata=8169 const=40 code=12869
+OHx51.exe PFinalWav.omf HEXFILE(PFinalWav.ihx)
+c8051-elf-omf2elf.exe PFinalWav.omf PFinalWav.elf
+cyhextool -o .\DP8051\DP8051_Keil_951\Debug\PFinalWav.hex -f .\DP8051\DP8051_Keil_951\Debug\PFinalWav.ihx -prot .\Generated_Source\PSoC3\protect.hex -id 1E028069 -a EEPROM=90200000:800,PROGRAM=00000000:10000,CONFIG=80000000:2000,PROTECT=90400000:40 -meta 0301 -cunv 00004005 -wonv BC90ACAF -ecc .\Generated_Source\PSoC3\config.hex
+Flash used: 12909 of 65536 bytes (19,7 %).
+SRAM used: 8169 of 8192 bytes (99,7 %).
+--------------- Build Succeeded: 05/28/2014 15:01:31 ---------------

@@ -1,0 +1,114 @@
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/Clock.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Clock.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Clock.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Clock.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Clock.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/Cm3Start.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Cm3Start.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Cm3Start.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/CyDmac.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyDmac.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyDmac.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/CyFlash.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/CyLib.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/CySpc.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/LCD_Char.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/LCD_Char_LCDPort.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_LCDPort.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_LCDPort_aliases.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_LCDPort.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_LCDPort.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_LCDPort_aliases.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_LCDPort.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/LCD_Char_PM.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_PM.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/LCD_Char_PM.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/Pin_Play_Pause.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Play_Pause.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Play_Pause_aliases.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Play_Pause.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Play_Pause.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Play_Pause_aliases.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Play_Pause.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/Pin_Sonido.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Sonido.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Sonido_aliases.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Sonido.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Sonido.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Sonido_aliases.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/Pin_Sonido.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/VDAC8.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/VDAC8.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/VDAC8.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/VDAC8.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/VDAC8.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/VDAC8_PM.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/VDAC8.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/VDAC8_PM.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/VDAC8_PM.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/cyPm.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/cyfitter_cfg.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/cymetadata.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cymetadata.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cymetadata.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/cyutils.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyutils.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyutils.c : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/CortexM3/ARM_GCC_473/Debug/isrWAV.o : C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/isrWAV.h C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/isrWAV.c 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/isrWAV.h : 
+
+C:/Users/Torres/Trabajos/DSE/PracticaFinal/PFinalWav/PFinalWav.cydsn/Generated_Source/PSoC5/isrWAV.c : 
+

@@ -1,0 +1,177 @@
+C51 COMPILER V9.51   WAVEDAC8_PM                                                           05/23/2014 15:22:13 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE WAVEDAC8_PM
+OBJECT MODULE PLACED IN .\DP8051\DP8051_Keil_951\Debug\WaveDAC8_PM.obj
+COMPILER INVOKED BY: C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\import\keil\pk51\9.51\C51\BIN\c51.exe 
+                    -.\Generated_Source\PSoC3\WaveDAC8_PM.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_PM.lst) C
+                    -D DB NOIP OT(2,SIZE) DF(DEBUG) INCDIR(.,.\Generated_Source\PSoC3) OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_PM.obj)
+
+line level    source
+
+   1          /*******************************************************************************
+   2          * File Name: WaveDAC8_PM.c  
+   3          * Version 2.0
+   4          *
+   5          * Description:
+   6          *  This file provides the power manager source code to the API for 
+   7          *  the WaveDAC8 component.
+   8          *
+   9          ********************************************************************************
+  10          * Copyright 2013, Cypress Semiconductor Corporation.  All rights reserved.
+  11          * You may use this file only in accordance with the license, terms, conditions, 
+  12          * disclaimers, and limitations in the end user license agreement accompanying 
+  13          * the software package with which this file was provided.
+  14          *******************************************************************************/
+  15          
+  16          #include "WaveDAC8.h"
+  17          
+  18          static WaveDAC8_BACKUP_STRUCT  WaveDAC8_backup;
+  19          
+  20          
+  21          /*******************************************************************************
+  22          * Function Name: WaveDAC8_Sleep
+  23          ********************************************************************************
+  24          *
+  25          * Summary:
+  26          *  Stops the component and saves its configuration. Should be called 
+  27          *  just prior to entering sleep.
+  28          *  
+  29          * Parameters:  
+  30          *  None
+  31          *
+  32          * Return: 
+  33          *  None
+  34          *
+  35          * Global variables:
+  36          *  WaveDAC8_backup:  The structure field 'enableState' is modified 
+  37          *  depending on the enable state of the block before entering to sleep mode.
+  38          *
+  39          * Reentrant:
+  40          *  No
+  41          *
+  42          *******************************************************************************/
+  43          void WaveDAC8_Sleep(void) 
+  44          {
+  45   1              /* Save DAC8's enable state */
+  46   1      
+  47   1              WaveDAC8_backup.enableState = (WaveDAC8_VDAC8_ACT_PWR_EN == 
+  48   1                      (WaveDAC8_VDAC8_PWRMGR_REG & WaveDAC8_VDAC8_ACT_PWR_EN)) ? 1u : 0u ;
+  49   1              
+  50   1              WaveDAC8_Stop();
+  51   1              WaveDAC8_SaveConfig();
+  52   1      }
+  53          
+C51 COMPILER V9.51   WAVEDAC8_PM                                                           05/23/2014 15:22:13 PAGE 2   
+
+  54          
+  55          /*******************************************************************************
+  56          * Function Name: WaveDAC8_Wakeup
+  57          ********************************************************************************
+  58          *
+  59          * Summary:
+  60          *  Restores the component configuration. Should be called
+  61          *  just after awaking from sleep.
+  62          *  
+  63          * Parameters:  
+  64          *  None
+  65          *
+  66          * Return: 
+  67          *  void
+  68          *
+  69          * Global variables:
+  70          *  WaveDAC8_backup:  The structure field 'enableState' is used to 
+  71          *  restore the enable state of block after wakeup from sleep mode.
+  72          *
+  73          * Reentrant:
+  74          *  No
+  75          *
+  76          *******************************************************************************/
+  77          void WaveDAC8_Wakeup(void) 
+  78          {
+  79   1              WaveDAC8_RestoreConfig();
+  80   1      
+  81   1              if(WaveDAC8_backup.enableState == 1u)
+  82   1              {
+  83   2                      WaveDAC8_Enable();
+  84   2              }
+  85   1      }
+  86          
+  87          
+  88          /* [] END OF FILE */
+C51 COMPILER V9.51   WAVEDAC8_PM                                                           05/23/2014 15:22:13 PAGE 3   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION WaveDAC8_Sleep (BEGIN)
+                                           ; SOURCE LINE # 43
+                                           ; SOURCE LINE # 44
+                                           ; SOURCE LINE # 48
+0000 9043A8            MOV     DPTR,#043A8H
+0003 E0                MOVX    A,@DPTR
+0004 FF                MOV     R7,A
+0005 EF                MOV     A,R7
+0006 5401              ANL     A,#01H
+0008 FF                MOV     R7,A
+0009 7E00              MOV     R6,#00H
+000B EF                MOV     A,R7
+000C 6401              XRL     A,#01H
+000E 4E                ORL     A,R6
+000F 7004              JNZ     ?C0001
+0011 7F01              MOV     R7,#01H
+0013 8002              SJMP    ?C0002
+0015         ?C0001:
+0015 7F00              MOV     R7,#00H
+0017         ?C0002:
+0017 900000      R     MOV     DPTR,#WaveDAC8_backup
+001A EF                MOV     A,R7
+001B F0                MOVX    @DPTR,A
+                                           ; SOURCE LINE # 50
+001C 120000      E     LCALL   WaveDAC8_Stop
+                                           ; SOURCE LINE # 51
+001F 120000      E     LCALL   WaveDAC8_VDAC8_SaveConfig
+                                           ; SOURCE LINE # 52
+0022 22                RET     
+             ; FUNCTION WaveDAC8_Sleep (END)
+
+             ; FUNCTION WaveDAC8_Wakeup (BEGIN)
+                                           ; SOURCE LINE # 77
+                                           ; SOURCE LINE # 78
+                                           ; SOURCE LINE # 79
+0000 120000      E     LCALL   WaveDAC8_VDAC8_RestoreConfig
+                                           ; SOURCE LINE # 81
+0003 900000      R     MOV     DPTR,#WaveDAC8_backup
+0006 E0                MOVX    A,@DPTR
+0007 FF                MOV     R7,A
+0008 EF                MOV     A,R7
+0009 B40103            CJNE    A,#01H,?C0005
+                                           ; SOURCE LINE # 82
+                                           ; SOURCE LINE # 83
+000C 120000      E     LCALL   WaveDAC8_Enable
+                                           ; SOURCE LINE # 84
+                                           ; SOURCE LINE # 85
+000F         ?C0005:
+000F 22                RET     
+             ; FUNCTION WaveDAC8_Wakeup (END)
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     51    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =      1    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+C51 COMPILER V9.51   WAVEDAC8_PM                                                           05/23/2014 15:22:13 PAGE 4   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

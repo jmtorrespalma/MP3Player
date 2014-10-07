@@ -1,0 +1,372 @@
+C51 COMPILER V9.51   MAIN                                                                  05/23/2014 17:43:21 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\DP8051\DP8051_Keil_951\Debug\main.obj
+COMPILER INVOKED BY: C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\import\keil\pk51\9.51\C51\BIN\c51.exe 
+                    -.\main.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\main.lst) CD DB NOIP OT(2,SIZE) DF(DEBUG) INCDIR
+                    -(.,.\Generated_Source\PSoC3) OJ(.\DP8051\DP8051_Keil_951\Debug\main.obj)
+
+line level    source
+
+   1          /* ========================================
+   2           *
+   3           * Copyright YOUR COMPANY, THE YEAR
+   4           * All Rights Reserved
+   5           * UNPUBLISHED, LICENSED SOFTWARE.
+   6           *
+   7           * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8           * WHICH IS THE PROPERTY OF your company.
+   9           *
+  10           * ========================================
+  11          */
+  12          #include <project.h>
+  13          #include <math.h>
+  14          #define PI 3.1415
+  15          
+  16          uint16 s_w400 = 500; //Numero de samples de cada onda.
+  17          uint16 s_w500 = 400; // size wave 500 Hz
+  18          uint16 s_w600 = 333;
+  19          uint16 s_w700 = 285;
+  20          
+  21          uint8 w_400[500]; //Solo aceptan valores entre 0-255, siendo 255 -> 4V
+  22          uint8 w_500[400];
+  23          uint8 w_600[333];
+  24          uint8 w_700[285];
+  25          uint8 w_800[5000];
+  26          
+  27          void fillArray(uint8 *array, uint16 size){
+  28   1          float toint = 255/2.0; //Lo usamos para transformar de 0-2 a 0-255
+  29   1          float inc = (2*PI) /(float)size; //Dividimos la circunferencia entera en size particiones
+  30   1          int i;
+  31   1          
+  32   1          for(i = 0; i < size; ++i){
+  33   2              array[i] = (sin(i*inc) + 1) * toint; //El +1 es para obtener siempre valores positivos
+  34   2          }
+  35   1          
+  36   1      }
+  37          
+  38          int main()
+  39          {
+  40   1          /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+  41   1          
+  42   1          fillArray(w_400, s_w400);
+  43   1          fillArray(w_500, s_w500);
+  44   1          fillArray(w_600, s_w600);
+  45   1          //fillArray(w_700, s_w700);
+  46   1           
+  47   1          /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */
+  48   1          for(;;)
+  49   1          {
+  50   2              /* Place your application code here. */
+  51   2              while(Pin_400_Read() && Pin_500_Read() && Pin_600_Read() && Pin_700_Read()); //Esperar mientras no
+             - se pulse nada
+  52   2                  
+C51 COMPILER V9.51   MAIN                                                                  05/23/2014 17:43:21 PAGE 2   
+
+  53   2              //Comprobamos qué botón se ha pulsado y cargamos la onda.
+  54   2              if(!Pin_400_Read())
+  55   2                  WaveDAC8_Wave1Setup(w_400, s_w400); //Elegimos la onda de 400Hz
+  56   2              else if(!Pin_500_Read())
+  57   2                  WaveDAC8_Wave1Setup(w_500, s_w500);
+  58   2              else if(!Pin_600_Read())
+  59   2                  WaveDAC8_Wave1Setup(w_600, s_w600);
+  60   2              else if(!Pin_700_Read())
+  61   2                  WaveDAC8_Wave1Setup(w_700, s_w700);
+  62   2               
+  63   2              WaveDAC8_Start();
+  64   2              while(!Pin_400_Read() || !Pin_500_Read() || !Pin_600_Read() || !Pin_700_Read()); //Suena mientras 
+             -pulsamos
+  65   2              WaveDAC8_Stop();
+  66   2              
+  67   2          }
+  68   1      }
+  69          
+  70          /* [] END OF FILE */
+C51 COMPILER V9.51   MAIN                                                                  05/23/2014 17:43:21 PAGE 3   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION _fillArray (BEGIN)
+                                           ; SOURCE LINE # 27
+0000 900000      R     MOV     DPTR,#array
+0003 120000      E     LCALL   ?C?PSTXDATA
+0006 900000      R     MOV     DPTR,#size
+0009 EC                MOV     A,R4
+000A F0                MOVX    @DPTR,A
+000B A3                INC     DPTR
+000C ED                MOV     A,R5
+000D F0                MOVX    @DPTR,A
+                                           ; SOURCE LINE # 28
+000E 7F00              MOV     R7,#00H
+0010 7E00              MOV     R6,#00H
+0012 7DFF              MOV     R5,#0FFH
+0014 7C42              MOV     R4,#042H
+0016 900000      R     MOV     DPTR,#toint
+0019 120000      E     LCALL   ?C?LSTXDATA
+                                           ; SOURCE LINE # 29
+001C 900000      R     MOV     DPTR,#size
+001F E0                MOVX    A,@DPTR
+0020 FC                MOV     R4,A
+0021 A3                INC     DPTR
+0022 E0                MOVX    A,@DPTR
+0023 FD                MOV     R5,A
+0024 E4                CLR     A
+0025 120000      E     LCALL   ?C?FCASTI
+0028 A804              MOV     R0,AR4
+002A A905              MOV     R1,AR5
+002C AA06              MOV     R2,AR6
+002E AB07              MOV     R3,AR7
+0030 7F56              MOV     R7,#056H
+0032 7E0E              MOV     R6,#0EH
+0034 7DC9              MOV     R5,#0C9H
+0036 7C40              MOV     R4,#040H
+0038 120000      E     LCALL   ?C?FPDIV
+003B 900000      R     MOV     DPTR,#inc
+003E 120000      E     LCALL   ?C?LSTXDATA
+                                           ; SOURCE LINE # 32
+0041 900000      R     MOV     DPTR,#i
+0044 E4                CLR     A
+0045 F0                MOVX    @DPTR,A
+0046 A3                INC     DPTR
+0047 E4                CLR     A
+0048 F0                MOVX    @DPTR,A
+0049         ?C0001:
+0049 900000      R     MOV     DPTR,#size
+004C E0                MOVX    A,@DPTR
+004D FE                MOV     R6,A
+004E A3                INC     DPTR
+004F E0                MOVX    A,@DPTR
+0050 FF                MOV     R7,A
+0051 900000      R     MOV     DPTR,#i
+0054 E0                MOVX    A,@DPTR
+0055 FC                MOV     R4,A
+0056 A3                INC     DPTR
+0057 E0                MOVX    A,@DPTR
+0058 FD                MOV     R5,A
+0059 C3                CLR     C
+005A ED                MOV     A,R5
+C51 COMPILER V9.51   MAIN                                                                  05/23/2014 17:43:21 PAGE 4   
+
+005B 9F                SUBB    A,R7
+005C EC                MOV     A,R4
+005D 9E                SUBB    A,R6
+005E 5053              JNC     ?C0004
+                                           ; SOURCE LINE # 33
+0060 900000      R     MOV     DPTR,#i
+0063 E0                MOVX    A,@DPTR
+0064 FC                MOV     R4,A
+0065 A3                INC     DPTR
+0066 E0                MOVX    A,@DPTR
+0067 FD                MOV     R5,A
+0068 EC                MOV     A,R4
+0069 120000      E     LCALL   ?C?FCASTI
+006C 900000      R     MOV     DPTR,#inc
+006F 120000      E     LCALL   ?C?LLDXDATA0
+0072 120000      E     LCALL   ?C?FPMUL
+0075 120000      E     LCALL   _sin
+0078 7B00              MOV     R3,#00H
+007A 7A00              MOV     R2,#00H
+007C 7980              MOV     R1,#080H
+007E 783F              MOV     R0,#03FH
+0080 120000      E     LCALL   ?C?FPADD
+0083 900000      R     MOV     DPTR,#toint
+0086 120000      E     LCALL   ?C?LLDXDATA0
+0089 120000      E     LCALL   ?C?FPMUL
+008C 120000      E     LCALL   ?C?CASTF
+008F 900000      R     MOV     DPTR,#array
+0092 120000      E     LCALL   ?C?PLDXDATA
+0095 900000      R     MOV     DPTR,#i
+0098 E0                MOVX    A,@DPTR
+0099 FC                MOV     R4,A
+009A A3                INC     DPTR
+009B E0                MOVX    A,@DPTR
+009C FD                MOV     R5,A
+009D E9                MOV     A,R1
+009E 2D                ADD     A,R5
+009F F9                MOV     R1,A
+00A0 EA                MOV     A,R2
+00A1 3C                ADDC    A,R4
+00A2 FA                MOV     R2,A
+00A3 EF                MOV     A,R7
+00A4 120000      E     LCALL   ?C?CSTPTR
+                                           ; SOURCE LINE # 34
+00A7 900000      R     MOV     DPTR,#i
+00AA E4                CLR     A
+00AB 75F001            MOV     B,#01H
+00AE 120000      E     LCALL   ?C?IILDX
+00B1 8096              SJMP    ?C0001
+                                           ; SOURCE LINE # 36
+00B3         ?C0004:
+00B3 22                RET     
+             ; FUNCTION _fillArray (END)
+
+             ; FUNCTION main (BEGIN)
+                                           ; SOURCE LINE # 38
+                                           ; SOURCE LINE # 39
+                                           ; SOURCE LINE # 42
+0000 7B01              MOV     R3,#01H
+0002 7A00        R     MOV     R2,#HIGH w_400
+0004 7900        R     MOV     R1,#LOW w_400
+0006 900000      R     MOV     DPTR,#s_w400
+0009 E0                MOVX    A,@DPTR
+C51 COMPILER V9.51   MAIN                                                                  05/23/2014 17:43:21 PAGE 5   
+
+000A FC                MOV     R4,A
+000B A3                INC     DPTR
+000C E0                MOVX    A,@DPTR
+000D FD                MOV     R5,A
+000E 120000      R     LCALL   _fillArray
+                                           ; SOURCE LINE # 43
+0011 7B01              MOV     R3,#01H
+0013 7A00        R     MOV     R2,#HIGH w_500
+0015 7900        R     MOV     R1,#LOW w_500
+0017 900000      R     MOV     DPTR,#s_w500
+001A E0                MOVX    A,@DPTR
+001B FC                MOV     R4,A
+001C A3                INC     DPTR
+001D E0                MOVX    A,@DPTR
+001E FD                MOV     R5,A
+001F 120000      R     LCALL   _fillArray
+                                           ; SOURCE LINE # 44
+0022 7B01              MOV     R3,#01H
+0024 7A00        R     MOV     R2,#HIGH w_600
+0026 7900        R     MOV     R1,#LOW w_600
+0028 900000      R     MOV     DPTR,#s_w600
+002B E0                MOVX    A,@DPTR
+002C FC                MOV     R4,A
+002D A3                INC     DPTR
+002E E0                MOVX    A,@DPTR
+002F FD                MOV     R5,A
+0030 120000      R     LCALL   _fillArray
+                                           ; SOURCE LINE # 48
+                                           ; SOURCE LINE # 49
+0033         ?C0007:
+                                           ; SOURCE LINE # 51
+0033 120000      E     LCALL   Pin_400_Read
+0036 EF                MOV     A,R7
+0037 6012              JZ      ?C0008
+0039 120000      E     LCALL   Pin_500_Read
+003C EF                MOV     A,R7
+003D 600C              JZ      ?C0008
+003F 120000      E     LCALL   Pin_600_Read
+0042 EF                MOV     A,R7
+0043 6006              JZ      ?C0008
+0045 120000      E     LCALL   Pin_700_Read
+0048 EF                MOV     A,R7
+0049 70E8              JNZ     ?C0007
+004B         ?C0008:
+                                           ; SOURCE LINE # 54
+004B 120000      E     LCALL   Pin_400_Read
+004E EF                MOV     A,R7
+004F 7013              JNZ     ?C0009
+                                           ; SOURCE LINE # 55
+0051 7B01              MOV     R3,#01H
+0053 7A00        R     MOV     R2,#HIGH w_400
+0055 7900        R     MOV     R1,#LOW w_400
+0057 900000      R     MOV     DPTR,#s_w400
+005A E0                MOVX    A,@DPTR
+005B FC                MOV     R4,A
+005C A3                INC     DPTR
+005D E0                MOVX    A,@DPTR
+005E FD                MOV     R5,A
+005F 120000      E     LCALL   _WaveDAC8_Wave1Setup
+0062 8049              SJMP    ?C0010
+0064         ?C0009:
+                                           ; SOURCE LINE # 56
+C51 COMPILER V9.51   MAIN                                                                  05/23/2014 17:43:21 PAGE 6   
+
+0064 120000      E     LCALL   Pin_500_Read
+0067 EF                MOV     A,R7
+0068 7013              JNZ     ?C0011
+                                           ; SOURCE LINE # 57
+006A 7B01              MOV     R3,#01H
+006C 7A00        R     MOV     R2,#HIGH w_500
+006E 7900        R     MOV     R1,#LOW w_500
+0070 900000      R     MOV     DPTR,#s_w500
+0073 E0                MOVX    A,@DPTR
+0074 FC                MOV     R4,A
+0075 A3                INC     DPTR
+0076 E0                MOVX    A,@DPTR
+0077 FD                MOV     R5,A
+0078 120000      E     LCALL   _WaveDAC8_Wave1Setup
+007B 8030              SJMP    ?C0010
+007D         ?C0011:
+                                           ; SOURCE LINE # 58
+007D 120000      E     LCALL   Pin_600_Read
+0080 EF                MOV     A,R7
+0081 7013              JNZ     ?C0013
+                                           ; SOURCE LINE # 59
+0083 7B01              MOV     R3,#01H
+0085 7A00        R     MOV     R2,#HIGH w_600
+0087 7900        R     MOV     R1,#LOW w_600
+0089 900000      R     MOV     DPTR,#s_w600
+008C E0                MOVX    A,@DPTR
+008D FC                MOV     R4,A
+008E A3                INC     DPTR
+008F E0                MOVX    A,@DPTR
+0090 FD                MOV     R5,A
+0091 120000      E     LCALL   _WaveDAC8_Wave1Setup
+0094 8017              SJMP    ?C0010
+0096         ?C0013:
+                                           ; SOURCE LINE # 60
+0096 120000      E     LCALL   Pin_700_Read
+0099 EF                MOV     A,R7
+009A 7011              JNZ     ?C0010
+                                           ; SOURCE LINE # 61
+009C 7B01              MOV     R3,#01H
+009E 7A00        R     MOV     R2,#HIGH w_700
+00A0 7900        R     MOV     R1,#LOW w_700
+00A2 900000      R     MOV     DPTR,#s_w700
+00A5 E0                MOVX    A,@DPTR
+00A6 FC                MOV     R4,A
+00A7 A3                INC     DPTR
+00A8 E0                MOVX    A,@DPTR
+00A9 FD                MOV     R5,A
+00AA 120000      E     LCALL   _WaveDAC8_Wave1Setup
+00AD         ?C0010:
+                                           ; SOURCE LINE # 63
+00AD 120000      E     LCALL   WaveDAC8_Start
+00B0         ?C0016:
+                                           ; SOURCE LINE # 64
+00B0 120000      E     LCALL   Pin_400_Read
+00B3 EF                MOV     A,R7
+00B4 60FA              JZ      ?C0016
+00B6 120000      E     LCALL   Pin_500_Read
+00B9 EF                MOV     A,R7
+00BA 60F4              JZ      ?C0016
+00BC 120000      E     LCALL   Pin_600_Read
+00BF EF                MOV     A,R7
+00C0 60EE              JZ      ?C0016
+C51 COMPILER V9.51   MAIN                                                                  05/23/2014 17:43:21 PAGE 7   
+
+00C2 120000      E     LCALL   Pin_700_Read
+00C5 EF                MOV     A,R7
+00C6 60E8              JZ      ?C0016
+00C8         ?C0017:
+                                           ; SOURCE LINE # 65
+00C8 120000      E     LCALL   WaveDAC8_Stop
+                                           ; SOURCE LINE # 67
+00CB 020000      R     LJMP    ?C0007
+00CE 22                RET     
+             ; FUNCTION main (END)
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    387    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   6526      15
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

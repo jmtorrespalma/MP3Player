@@ -1,0 +1,86 @@
+--------------- Rebuild Started: 05/23/2014 12:53:11 Project: PFinal, Configuration: DP8051 Keil 9.51 Debug ---------------
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\main.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\WaveDAC8.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\WaveDAC8_PM.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Pin_Senal.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\WaveDAC8_DacClk.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave1_DMA_dma.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave2_DMA_dma.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8_PM.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyBootAsmKeil.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyDmac.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyFlash.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyLib.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cymem.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cyPm.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CySpc.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cyutils.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\KeilStart.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Pin_400.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Pin_500.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Pin_600.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Pin_700.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\PFinal.hex"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\PFinal.elf"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\PFinal.map"
+Deleting file ".\PFinal.cycdx"
+Deleting file ".\PFinal.svd"
+Deleting file ".\PFinal.rpt"
+Deleting file ".\PFinal_timing.html"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\.deps\C_FILE.P"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\.deps\DP8051_C_FILE.P"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\.deps\KEIL_8051_ASM_FILE.P"
+cydsfit.exe "-.appdatapath" "C:\Users\Torres\AppData\Local\Cypress Semiconductor\PSoC Creator\3.0" "-.fdsnotice" "-.fdswarpdepfile=warp_dependencies.txt" "-.fdselabdepfile=elab_dependencies.txt" "-.fdsbldfile=generated_files.txt" "-p" "C:\Users\Torres\Trabajos\DSE\PracticaFinal\PFinal\PFinal.cydsn\PFinal.cyprj" "-d" "CY8C3866AXI-040" "-s" "C:\Users\Torres\Trabajos\DSE\PracticaFinal\PFinal\PFinal.cydsn\Generated_Source\PSoC3" "--" "-yv2" "-v3" "-ygs" "-q10" "-o2" "-.fftcfgtype=BE"
+Elaborating Design...
+HDL Generation ...
+Synthesis ...
+Place and Route ...
+Tech mapping ...
+ADD: pft.M0040: information: The following 5 pin(s) will be assigned a location by the fitter: Pin_400(0), Pin_500(0), Pin_600(0), Pin_700(0), Pin_Senal(0)
+Info: mpr.M0037: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details. (App=cydsfit)
+Analog Placement ...
+Log: apr.M0058: The analog placement iterative improvement is 48% done. (App=cydsfit)
+Analog Routing ...
+Analog Code Generation ...
+Digital Placement ...
+Info: plm.M0039: The pin named Pin_Senal(0) at location P3[0] prevents usage of the high current (2mA) feature of an IDAC. (App=cydsfit)
+Digital Routing ...
+Bitstream Generation ...
+Static timing analysis ...
+API Generation ...
+Dependency Generation ...
+Clean Temporary Files ...
+c51.exe .\main.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\main.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\main.obj)
+c51.exe .\Generated_Source\PSoC3\cyfitter_cfg.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.obj)
+c51.exe .\Generated_Source\PSoC3\WaveDAC8.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8.obj)
+c51.exe .\Generated_Source\PSoC3\WaveDAC8_PM.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_PM.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_PM.obj)
+c51.exe .\Generated_Source\PSoC3\Pin_Senal.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\Pin_Senal.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\Pin_Senal.obj)
+c51.exe .\Generated_Source\PSoC3\WaveDAC8_DacClk.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_DacClk.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_DacClk.obj)
+c51.exe .\Generated_Source\PSoC3\WaveDAC8_Wave1_DMA_dma.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave1_DMA_dma.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave1_DMA_dma.obj)
+c51.exe .\Generated_Source\PSoC3\WaveDAC8_Wave2_DMA_dma.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave2_DMA_dma.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave2_DMA_dma.obj)
+c51.exe .\Generated_Source\PSoC3\WaveDAC8_VDAC8.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8.obj)
+c51.exe .\Generated_Source\PSoC3\WaveDAC8_VDAC8_PM.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8_PM.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8_PM.obj)
+Ax51.exe .\Generated_Source\PSoC3\CyBootAsmKeil.a51 NOCO MACRO DB DF(DEBUG) PR(.\DP8051\DP8051_Keil_951\Debug/CyBootAsmKeil.lst) CASE EP "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\CyBootAsmKeil.obj)
+c51.exe .\Generated_Source\PSoC3\CyDmac.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\CyDmac.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\CyDmac.obj)
+c51.exe .\Generated_Source\PSoC3\CyFlash.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\CyFlash.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\CyFlash.obj)
+c51.exe .\Generated_Source\PSoC3\CyLib.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\CyLib.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\CyLib.obj)
+Ax51.exe .\Generated_Source\PSoC3\cymem.a51 NOCO MACRO DB DF(DEBUG) PR(.\DP8051\DP8051_Keil_951\Debug/cymem.lst) CASE EP "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\cymem.obj)
+c51.exe .\Generated_Source\PSoC3\cyPm.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\cyPm.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\cyPm.obj)
+c51.exe .\Generated_Source\PSoC3\CySpc.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\CySpc.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\CySpc.obj)
+c51.exe .\Generated_Source\PSoC3\cyutils.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\cyutils.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\cyutils.obj)
+Ax51.exe .\Generated_Source\PSoC3\KeilStart.a51 NOCO MACRO DB DF(DEBUG) PR(.\DP8051\DP8051_Keil_951\Debug/KeilStart.lst) CASE EP "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\KeilStart.obj)
+c51.exe .\Generated_Source\PSoC3\Pin_400.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\Pin_400.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\Pin_400.obj)
+c51.exe .\Generated_Source\PSoC3\Pin_500.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\Pin_500.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\Pin_500.obj)
+c51.exe .\Generated_Source\PSoC3\Pin_600.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\Pin_600.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\Pin_600.obj)
+c51.exe .\Generated_Source\PSoC3\Pin_700.c NOIV LARGE MODDP2 OMF2 VB(1) PR(.\DP8051\DP8051_Keil_951\Debug\Pin_700.lst) CD DB NOIP "OT(2, Size)" "DF (DEBUG)" "INCDIR(., .\Generated_Source\PSoC3)" OJ(.\DP8051\DP8051_Keil_951\Debug\Pin_700.obj)
+LIBX51.exe TRANSFER '.\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.obj', '.\DP8051\DP8051_Keil_951\Debug\WaveDAC8.obj', '.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_PM.obj', '.\DP8051\DP8051_Keil_951\Debug\Pin_Senal.obj', '.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_DacClk.obj', '.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave1_DMA_dma.obj', '.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_Wave2_DMA_dma.obj', '.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8.obj', '.\DP8051\DP8051_Keil_951\Debug\WaveDAC8_VDAC8_PM.obj', '.\DP8051\DP8051_Keil_951\Debug\CyBootAsmKeil.obj', '.\DP8051\DP8051_Keil_951\Debug\CyDmac.obj', '.\DP8051\DP8051_Keil_951\Debug\CyFlash.obj', '.\DP8051\DP8051_Keil_951\Debug\CyLib.obj', '.\DP8051\DP8051_Keil_951\Debug\cymem.obj', '.\DP8051\DP8051_Keil_951\Debug\cyPm.obj', '.\DP8051\DP8051_Keil_951\Debug\CySpc.obj', '.\DP8051\DP8051_Keil_951\Debug\cyutils.obj', '.\DP8051\DP8051_Keil_951\Debug\KeilStart.obj', '.\DP8051\DP8051_Keil_951\Debug\Pin_400.obj', '.\DP8051\DP8051_Keil_951\Debug\Pin_500.obj', '.\DP8051\DP8051_Keil_951\Debug\Pin_600.obj', '.\DP8051\DP8051_Keil_951\Debug\Pin_700.obj' TO '.\DP8051\DP8051_Keil_951\Debug\PFinal.lib'
+LX51.exe '.\DP8051\DP8051_Keil_951\Debug\main.obj', '.\DP8051\DP8051_Keil_951\Debug\PFinal.lib', 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DP8051\DP8051_Keil_951\Debug\CyComponentLibrary.lib'  TO '.\DP8051\DP8051_Keil_951\Debug\PFinal.omf' PR(.\DP8051\DP8051_Keil_951\Debug\PFinal.map) IX CODE DW(16) RU CL(XDATA(X:0x0000-X:0x1FFF)) CL(CODE(C:0x0000-C:0xFFFF)) CL(CONST(C:0x0000-C:0xFFFF))
+Program Size: data=14.1 xdata=1648 const=334 code=6258
+OHx51.exe PFinal.omf HEXFILE(PFinal.ihx)
+c8051-elf-omf2elf.exe PFinal.omf PFinal.elf
+cyhextool -o .\DP8051\DP8051_Keil_951\Debug\PFinal.hex -f .\DP8051\DP8051_Keil_951\Debug\PFinal.ihx -prot .\Generated_Source\PSoC3\protect.hex -id 1E028069 -a EEPROM=90200000:800,PROGRAM=00000000:10000,CONFIG=80000000:2000,PROTECT=90400000:40 -meta 0301 -cunv 00004005 -wonv BC90ACAF -ecc .\Generated_Source\PSoC3\config.hex
+Flash used: 6592 of 65536 bytes (10,1 %).
+SRAM used: 1648 of 8192 bytes (20,1 %).
+--------------- Rebuild Succeeded: 05/23/2014 12:54:11 ---------------
